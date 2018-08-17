@@ -23,21 +23,15 @@
 		<dependency>
 			<groupId>org.apache.kafka</groupId>
 			<artifactId>kafka_2.11</artifactId>
-			<version>0.10.1.2.6.4.0-91</version>
+			<version>0.11.0-kafka-3.0.0</version>
 		</dependency>
 	</dependencies>
 
 	<repositories>
 		<repository>
-			<id>hortonworks</id>
-			<name>hortonworks</name>
-			<url>http://repo.hortonworks.com/content/groups/public/</url>
-		</repository>
-		<repository>
-			<id>hortonworks-release</id>
-			<name>hortonworks-release</name>
-			<url>http://repo.hortonworks.com/content/repositories/releases/</url>
-		</repository>
+			<id>cloudera</id>
+			<url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+    		</repository>
 	</repositories>
 
 
