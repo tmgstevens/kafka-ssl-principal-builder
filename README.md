@@ -11,7 +11,7 @@ $ mvn clean install
 
 Copy the jar ``target/kafka-ssl-principal-builder-0.0.1-SNAPSHOT.jar`` on your broker nodes, in the lib directory ``/usr/hdf/current/kafka-broker/libs/``
 
-Set the following properties in Ambari (assuming SSL properties have already been set):
+Set the following properties in Cloudera Manager (assuming SSL properties have already been set):
 ````properties
 principal.builder.class=kafka.security.auth.CustomPrincipalBuilder
 kafka.security.identity.mapping.pattern.dn=^.*[Cc][Nn]=([a-zA-Z0-9. ]*).*$
