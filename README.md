@@ -9,7 +9,7 @@ $ cd kafka-ssl-principal-builder
 $ mvn clean install
 ````
 
-Copy the jar ``target/kafka-ssl-principal-builder-0.0.1-SNAPSHOT.jar`` on your broker nodes, in the lib directory ``/usr/hdf/current/kafka-broker/libs/``
+Copy the jar ``target/kafka-ssl-principal-builder-0.0.1-SNAPSHOT.jar`` on your broker nodes
 
 Set the following properties in Cloudera Manager (assuming SSL properties have already been set):
 ````properties
